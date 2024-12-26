@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(155, 147, 155);
+            margin: 1;
+            padding: 1;
+        }
+        .container {
+            display:flex;
+        }
+        /* .sidebar {
+            width: 250px;
+            background-color: aqua;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        } */
+        .sidebar h2 {
+            text-align:center;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: #ddd;
+            color: #333;
+            display: block;
+        }
+        .sidebar ul li a:hover {
+            background-color: rgb(131, 122, 128);
+            padding-left: 10px;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <img src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-1/393318136_1478467972995768_8544842072613674368_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGt6AvSv9rYpDeH37GSk8H1Lg-d_87QnqEuD53_ztCeoUuhfEW0A-l4Mw944PuNIiy25il7SYntlaEEXzIzOajt&_nc_ohc=aC_tdyPP0ZcQ7kNvgFYPSbP&_nc_zt=24&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=AQjRk6SAFjvDIRFOtD0aD44&oh=00_AYAqt4o47C_amPICvrKfLcJrNEs-L7HOyEkqQX8cscQBXw&oe=6772B2B7" alt="profile-picture" class="main-image">
+        <h1>Ken D. Baquirin</h1>
+        <!-- <p>THIS is The Main Content Area</p> -->
+    </div>
+    
+        
+    <div class = "container">
+        <div class="sidebar">
+            <h2>About Me</h2>
+            <ul>
+                <li><a href="information.html" target="rightFrame">Information</a></li>
+                <li><a href="favorites.html" target="rightFrame">Favorite Movie and Anime</a></li>
+                <li><a href="food.html" target="rightFrame">Favorite Food</a></li>
+            </ul>
+            
+            <h2>Activities</h2>
+            <ul>
+                <li><a href="activity1-4.html" target="rightFrame">Activity1-4</a></li>
+                <li><a href="My Class Schedule .html" target="rightFrame">CLASS SCHEDULE</a></li>
+                <li><a href="activity7.html" target="rightFrame">Activity 7</a></li>
+                <li><a href="activity8.HTML" target="rightFrame">Activity 8</a></li>
+                <!-- <li><a href="activity9.html" target="rightFrame">ACTIVITY 9</a></li>
+                <li><a href="activity10.html" target="rightFrame">ACTIVITY 10</a></li>
+                <li><a href="Activity 11.html" target="rightFrame">ACTIVITY 11</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
